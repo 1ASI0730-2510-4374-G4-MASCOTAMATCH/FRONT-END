@@ -1,11 +1,7 @@
 <script>
-import {PlanService} from "@/bounded-context/services/plan.service.js";
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {UsuarioService} from "@/bounded-context/services/usuario.service.js";
-import {Plan} from "@/bounded-context/model/plan.entity.js";
-import {Medicina} from "@/bounded-context/model/medicina.entity.js";
-import {Usuario} from "@/bounded-context/model/usuario.entity.js";
-import PlanList from "@/bounded-context/components/plan-list.component.vue";
+import {PlanService} from "@/plan/services/plan.service.js";
+import {Plan} from "@/plan/model/plan.entity.js";
+import PlanList from "@/plan/components/plan-list.component.vue";
 
 export default {
   name: "planes-page",

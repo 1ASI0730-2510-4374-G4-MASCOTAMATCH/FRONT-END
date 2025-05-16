@@ -1,6 +1,6 @@
 <script setup>
 
-import HomeContent from "@/public/pages/home-content.component.vue";
+import HomeContent from "@/pages/home-content.component.vue";
 
 </script>
 

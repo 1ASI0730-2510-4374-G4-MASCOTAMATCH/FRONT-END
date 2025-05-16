@@ -1,12 +1,11 @@
 <script>
-import PlanList from "@/bounded-context/components/plan-list.component.vue";
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {Medicina} from "@/bounded-context/model/medicina.entity.js";
-import MedicamentosList from "@/bounded-context/components/medicamentos-list.vue";
+import {Medicina} from "@/pet/model/medicina.entity.js";
+import MedicamentosList from "@/pet/components/medicamentos-list.vue";
+import {MedicinaService} from "@/pet/services/medicina.service.js";
 
 export default {
   name: "medicamentos-page.component",
-  components: {MedicamentosList, PlanList},
+  components: {MedicamentosList},
   data() {
     return {
       medicamentos: [],
@@ -27,7 +26,6 @@ export default {
           })
           .catch(e => {
             this.errors.push(e);
-            this.planes = [];
           });
     }
   }

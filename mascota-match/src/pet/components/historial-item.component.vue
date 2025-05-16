@@ -1,8 +1,4 @@
 <script>
-import {MedicinaMascotaService} from "@/bounded-context/services/medicina-mascota.service.js";
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {MascotaService} from "@/bounded-context/services/mascota.service.js";
-import {Historial} from "@/bounded-context/model/historial.entity.js";
 
 export default {
   name: "historial-item",

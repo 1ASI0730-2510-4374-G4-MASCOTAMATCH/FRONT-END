@@ -1,12 +1,10 @@
 <script>
-import HistorialItem from "@/bounded-context/components/historial-item.component.vue";
-import {HistorialService} from "@/bounded-context/services/historial.service.js";
-import {MedicinaMascotaService} from "@/bounded-context/services/medicina-mascota.service.js";
-import {MedicinaMascota} from "@/bounded-context/model/medicina-mascota.entity.js";
-import {Historial} from "@/bounded-context/model/historial.entity.js";
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {MascotaService} from "@/bounded-context/services/mascota.service.js";
-import {UsuarioService} from "@/bounded-context/services/usuario.service.js";
+import HistorialItem from "@/pet/components/historial-item.component.vue";
+import {MedicinaMascotaService} from "@/pet/services/medicina-mascota.service.js";
+import {MedicinaMascota} from "@/pet/model/medicina-mascota.entity.js";
+import {MedicinaService} from "@/pet/services/medicina.service.js";
+import {MascotaService} from "@/pet/services/mascota.service.js";
+import {UsuarioService} from "@/plan/services/usuario.service.js";
 
 export default {
   name: "historial-list",

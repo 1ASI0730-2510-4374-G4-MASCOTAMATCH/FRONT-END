@@ -1,8 +1,5 @@
 <script>
-import {Plan} from "@/bounded-context/model/plan.entity.js";
 import {Button as PvButton, Card as PvCard} from "primevue";
-import {UsuarioPlan} from "@/bounded-context/model/usuario-plan.entity.js";
-import {UsuarioPlanService} from "@/bounded-context/services/usuario-plan.service.js";
 
 export default {
   name: "plan-item",

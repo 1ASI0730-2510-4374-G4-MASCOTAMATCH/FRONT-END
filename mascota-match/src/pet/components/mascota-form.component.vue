@@ -1,8 +1,6 @@
 <script>
-import {Mascota} from "@/bounded-context/model/mascota.entity.js";
-import {UsuarioService} from "@/bounded-context/services/usuario.service.js";
-import {Usuario} from "@/bounded-context/model/usuario.entity.js";
-import {MascotaService} from "@/bounded-context/services/mascota.service.js";
+import {Mascota} from "@/pet/model/mascota.entity.js";
+import {MascotaService} from "@/pet/services/mascota.service.js";
 
 export default {
   name: "mascota-form",

@@ -1,14 +1,12 @@
 <script>
 import {Button as PvButton} from "primevue";
-import PlanItem from "@/bounded-context/components/plan-item.component.vue";
-
-import {MascotaService} from "@/bounded-context/services/mascota.service.js";
-import MascotaItem from "@/bounded-context/components/mascota-item.component.vue";
-import {Mascota} from "@/bounded-context/model/mascota.entity.js";
+import {MascotaService} from "@/pet/services/mascota.service.js";
+import MascotaItem from "@/pet/components/mascota-item.component.vue";
+import {Mascota} from "@/pet/model/mascota.entity.js";
 
 export default {
   name: "mascota-list",
-  components: {MascotaItem, PvButton, PlanItem},
+  components: {MascotaItem, PvButton},
   data() {
     console.log("usuarioId desde localStorage:", localStorage.getItem("usuarioId"));
     return {

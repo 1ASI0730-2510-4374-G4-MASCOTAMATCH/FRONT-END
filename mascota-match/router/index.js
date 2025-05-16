@@ -6,8 +6,8 @@ import LoginRegisterComponent from "@/bounded-context/components/login-register.
 
 const routes = [
 
-      { path: '/login',       name: 'login',    component: LoginRegisterComponent },
-   // { path: '/',           name: 'home',    component: LoginRegister },
+    { path: '/login',       name: 'login',    component: LoginRegisterComponent },
+    // { path: '/',           name: 'home',    component: LoginRegister },
     //{ path: '/registro',   name: 'registro', component: Registro }
 ]
 

@@ -1,8 +1,6 @@
 <script>
-import {UsuarioPlanService} from "@/bounded-context/services/usuario-plan.service.js";
-import {UsuarioPlan} from "@/bounded-context/model/usuario-plan.entity.js";
-import {Mascota} from "@/bounded-context/model/mascota.entity.js";
-import {MascotaService} from "@/bounded-context/services/mascota.service.js";
+import {Mascota} from "@/pet/model/mascota.entity.js";
+import {MascotaService} from "@/pet/services/mascota.service.js";
 
 export default {
   name: "mascota-item",

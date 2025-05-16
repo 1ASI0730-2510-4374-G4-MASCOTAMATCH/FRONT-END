@@ -1,8 +1,7 @@
 <script>
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {Medicina} from "@/bounded-context/model/medicina.entity.js";
-import {Mascota} from "@/bounded-context/model/mascota.entity.js";
-import MedicamentosItem from "@/bounded-context/components/medicamentos-item.component.vue";
+import {MedicinaService} from "@/pet/services/medicina.service.js";
+import {Medicina} from "@/pet/model/medicina.entity.js";
+import MedicamentosItem from "@/pet/components/medicamentos-item.component.vue";
 
 export default {
   name: "medicamentos-list",

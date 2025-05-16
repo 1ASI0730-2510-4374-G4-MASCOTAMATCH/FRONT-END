@@ -1,8 +1,7 @@
 <script>
-import PlanItem from "@/bounded-context/components/plan-item.component.vue";
-import {UsuarioPlanService} from "@/bounded-context/services/usuario-plan.service.js";
-import {Plan} from "@/bounded-context/model/plan.entity.js";
-import {UsuarioPlan} from "@/bounded-context/model/usuario-plan.entity.js";
+import PlanItem from "@/plan/components/plan-item.component.vue";
+import {UsuarioPlanService} from "@/plan/services/usuario-plan.service.js";
+import {UsuarioPlan} from "@/plan/model/usuario-plan.entity.js";
 import {Button as PvButton} from "primevue";
 
 export default {

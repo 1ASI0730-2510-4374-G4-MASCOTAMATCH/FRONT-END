@@ -1,9 +1,9 @@
 <script>
 import {Button as PvButton, Card as PvCard} from "primevue";
-import {MedicinaService} from "@/bounded-context/services/medicina.service.js";
-import {Medicina} from "@/bounded-context/model/medicina.entity.js";
-import {MedicinaMascota} from "@/bounded-context/model/medicina-mascota.entity.js";
-import {MedicinaMascotaService} from "@/bounded-context/services/medicina-mascota.service.js";
+import {MedicinaService} from "@/pet/services/medicina.service.js";
+import {Medicina} from "@/pet/model/medicina.entity.js";
+import {MedicinaMascota} from "@/pet/model/medicina-mascota.entity.js";
+import {MedicinaMascotaService} from "@/pet/services/medicina-mascota.service.js";
 
 export default {
   name: "medicamentos-item",
