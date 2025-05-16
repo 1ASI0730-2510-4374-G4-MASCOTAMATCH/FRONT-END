@@ -1,14 +1,12 @@
 
-export class Usuario {
+export class Medicina {
     constructor({
                     id = null,
                     nombre = '',
-                    email = '',
-                    password = ''
+                    descripcion = ''
                 }) {
         this.id = id;
         this.nombre = nombre;
-        this.email = email;
-        this.password = password;
+        this.descripcion = descripcion;
     }
 }
