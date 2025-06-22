@@ -1,0 +1,453 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Torres",
+      "email": "ana@example.com",
+      "password": "abcdef"
+    }
+  ],
+  "planes": [
+    {
+      "id": 1,
+      "name": "VIP Plan",
+      "imgUrl": "https://via.placeholder.com/300x180",
+      "description": "Access to all our exclusive services, such as unlimited walks, priority attention in emergencies and personalized vaccine reminders."
+    },
+    {
+      "id": 2,
+      "name": "Complete Plan",
+      "imgUrl": "https://via.placeholder.com/300x180",
+      "description": "2 weekly walks\n1 grooming session per month\n1 home veterinary visit\nVaccine and deworming monitoring\n24/7 support in the app"
+    },
+    {
+      "id": 3,
+      "name": "Mini Plan",
+      "imgUrl": "https://via.placeholder.com/300x180",
+      "description": "1 weekly walk\nVaccine reminders\nAccess to certified suppliers\nMonthly virtual review with veterinarian"
+    }
+  ],
+  "usuario_planes": [
+    {
+      "userId": 1,
+      "planId": 3,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "usuarioId": 2,
+      "planId": 2
+    }
+  ],
+  "mascotas": [
+    {
+      "id": 1,
+      "nombre": "Kira",
+      "edad": 9,
+      "usuarioId": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Firulais",
+      "edad": 5,
+      "usuarioId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Kira",
+      "edad": 9,
+      "usuarioId": 2
+    },
+    {
+      "id": 4,
+      "nombre": "Firulais",
+      "edad": 5,
+      "usuarioId": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Michi",
+      "edad": 3,
+      "usuarioId": 2
+    },
+    {
+      "nombre": "carman",
+      "edad": 5,
+      "usuarioId": 1,
+      "id": 6
+    },
+    {
+      "nombre": "perro",
+      "edad": 2,
+      "usuarioId": 1,
+      "id": 7
+    },
+    {
+      "nombre": "cano",
+      "edad": 4,
+      "usuarioId": 1,
+      "id": 8
+    },
+    {
+      "nombre": "erer",
+      "edad": 2,
+      "usuarioId": 1,
+      "id": 13
+    },
+    {
+      "nombre": "perro",
+      "edad": 2,
+      "usuarioId": 1,
+      "id": 14
+    },
+    {
+      "nombre": "222",
+      "edad": 1,
+      "usuarioId": 1,
+      "id": 15
+    },
+    {
+      "nombre": "222",
+      "edad": 1,
+      "usuarioId": 1,
+      "id": 16
+    },
+    {
+      "nombre": "jjol",
+      "edad": 7,
+      "usuarioId": 1,
+      "id": 17
+    },
+    {
+      "nombre": "jjol",
+      "edad": 7,
+      "usuarioId": 1,
+      "id": 18
+    },
+    {
+      "nombre": "jjol",
+      "edad": 7,
+      "usuarioId": 1,
+      "id": 19
+    },
+    {
+      "nombre": "jjol",
+      "edad": 7,
+      "usuarioId": 1,
+      "id": 20
+    }
+  ],
+  "medicinas": [
+    {
+      "id": 1,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "precio": 20
+    },
+    {
+      "id": 2,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "precio": 15
+    },
+    {
+      "id": 3,
+      "nombre": "Antibiótico C",
+      "descripcion": "Combate infecciones C",
+      "precio": 25
+    }
+  ],
+  "mascota_medicinas": [
+    {
+      "id": 1,
+      "nombre": "Desparasitante",
+      "descripcion": "Medicina para eliminar parásitos internos",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 1
+    },
+    {
+      "id": 2,
+      "nombre": "",
+      "descripcion": "",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "idUsuario": 1,
+      "idMascota": 4,
+      "idMedicina": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Antibiótico C",
+      "descripcion": "Combate infecciones C",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "idUsuario": 2,
+      "idMascota": 3,
+      "idMedicina": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": 1,
+      "idMascota": 4,
+      "idMedicina": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 9,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 1,
+      "cantidad": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": 1,
+      "idMascota": 3,
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 11,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "idUsuario": "1",
+      "idMascota": "11",
+      "idMedicina": 2,
+      "cantidad": 4
+    },
+    {
+      "id": 12,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "14",
+      "idMedicina": 1,
+      "cantidad": 3
+    },
+    {
+      "id": 13,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 14,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 15,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 16,
+      "nombre": "Antibiótico C",
+      "descripcion": "Combate infecciones C",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 3,
+      "cantidad": 1
+    },
+    {
+      "id": 17,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 18,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 1,
+      "cantidad": 1
+    },
+    {
+      "id": 19,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "idUsuario": "1",
+      "idMascota": "10",
+      "idMedicina": 2,
+      "cantidad": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "8",
+      "idMedicina": 1,
+      "cantidad": 2
+    },
+    {
+      "id": 21,
+      "nombre": "Desparasitante B",
+      "descripcion": "Elimina parásitos B",
+      "idUsuario": "1",
+      "idMascota": "8",
+      "idMedicina": 2,
+      "cantidad": 3
+    },
+    {
+      "id": 22,
+      "nombre": "Antibiótico C",
+      "descripcion": "Combate infecciones C",
+      "idUsuario": "1",
+      "idMascota": "8",
+      "idMedicina": 3,
+      "cantidad": 3
+    },
+    {
+      "id": 23,
+      "nombre": "Vacuna A",
+      "descripcion": "Previene enfermedad A",
+      "idUsuario": "1",
+      "idMascota": "8",
+      "idMedicina": 1,
+      "cantidad": 2
+    }
+  ],
+  "historiales": [
+    {
+      "id": 1,
+      "idUsuario": 1,
+      "idMascota": 1,
+      "idMedicamento": 1
+    },
+    {
+      "id": 2,
+      "idUsuario": 2,
+      "idMascota": 2,
+      "idMedicamento": 2
+    }
+  ],
+  "pagos": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "planId": 1,
+      "metodo": "yape",
+      "fecha": "2025-06-09T23:02:00.969Z",
+      "monto": 39.9,
+      "detalles": {
+        "celular": "123123123"
+      }
+    },
+    {
+      "usuarioId": 1,
+      "planId": 2,
+      "metodo": "yape",
+      "fecha": "2025-06-10T16:00:28.996Z",
+      "monto": 39.9,
+      "detalles": {
+        "celular": "987678567"
+      },
+      "id": 2
+    },
+    {
+      "usuarioId": 1,
+      "planId": 1,
+      "metodo": "yape",
+      "fecha": "2025-06-18T00:20:24.444Z",
+      "monto": 39.9,
+      "detalles": {
+        "celular": "998767787"
+      },
+      "id": 3
+    },
+    {
+      "usuarioId": 1,
+      "planId": null,
+      "tipoPago": "carrito",
+      "metodo": "yape",
+      "monto": 30,
+      "detalles": {
+        "celular": "998678567"
+      },
+      "fecha": "2025-06-18T01:35:26.010Z",
+      "id": 4
+    },
+    {
+      "usuarioId": 1,
+      "planId": 1,
+      "tipoPago": "plan",
+      "metodo": "paypal",
+      "monto": 39.9,
+      "detalles": {
+        "email": "sdsdds"
+      },
+      "fecha": "2025-06-19T05:00:37.956Z",
+      "id": 5
+    },
+    {
+      "usuarioId": 1,
+      "planId": 2,
+      "tipoPago": "plan",
+      "metodo": "paypal",
+      "monto": 39.9,
+      "detalles": {
+        "email": "2323"
+      },
+      "fecha": "2025-06-19T07:28:41.162Z",
+      "id": 6
+    }
+  ]
+}
