@@ -76,6 +76,16 @@ export default {
 
 
       </form>
+
+      <!-- Cuadro de bienvenida -->
+      <div class="user-box">
+        <p>User1: erick@gmail.com</p>
+        <p>Password1: 1234567</p>
+
+        <p>User2: juan@gmail.com</p>
+        <p>Password2: 1234567</p>
+      </div>
+
     </div>
   </section>
 </template>
