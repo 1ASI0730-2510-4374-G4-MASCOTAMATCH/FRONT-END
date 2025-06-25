@@ -23,7 +23,6 @@ export default {
 
   <div v-if="sidebarVisible  && mostrarSidebar" class="sidebar responsive-sidebar">
     <div class="sidebar-header">
-      <img src="../../assets/images/logo.png" alt="Company Logo" class="logo-image">
     </div>
 
     <div class="sidebar-menu">
