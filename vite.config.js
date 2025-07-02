@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/', // 👈 Asegura rutas correctas al CSS/JS en producción
   plugins: [
     vue(),
     vueDevTools(),
