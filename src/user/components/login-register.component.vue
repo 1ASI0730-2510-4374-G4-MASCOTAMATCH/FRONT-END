@@ -79,11 +79,9 @@ export default {
 
       <!-- Cuadro de bienvenida -->
       <div class="user-box">
-        <p>User1: erick@gmail.com</p>
-        <p>Password1: 1234567</p>
+        <p>User1: erca@gmail.com</p>
+        <p>Password1: 123456</p>
 
-        <p>User2: juan@gmail.com</p>
-        <p>Password2: 1234567</p>
       </div>
 
     </div>
